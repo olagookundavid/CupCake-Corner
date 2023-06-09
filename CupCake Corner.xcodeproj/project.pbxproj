@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA56BD429C3B22500AC9289 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA56BD029C3B22500AC9289 /* ContentView.swift */; };
+		BEA56BD529C3B22500AC9289 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA56BD129C3B22500AC9289 /* CheckoutView.swift */; };
+		BEA56BD629C3B22500AC9289 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA56BD229C3B22500AC9289 /* AddressView.swift */; };
+		BEA56BD729C3B22500AC9289 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA56BD329C3B22500AC9289 /* Order.swift */; };
 		BEB6B48B29C2857D00A95148 /* CupCake_CornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6B48A29C2857D00A95148 /* CupCake_CornerApp.swift */; };
-		BEB6B48D29C2857D00A95148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB6B48C29C2857D00A95148 /* ContentView.swift */; };
 		BEB6B48F29C2857F00A95148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB6B48E29C2857F00A95148 /* Assets.xcassets */; };
 		BEB6B49229C2857F00A95148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB6B49129C2857F00A95148 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BEA56BD029C3B22500AC9289 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../HackingWithSwift-main/SwiftUI/project10/CupcakeCorner/ContentView.swift"; sourceTree = "<group>"; };
+		BEA56BD129C3B22500AC9289 /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		BEA56BD229C3B22500AC9289 /* AddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		BEA56BD329C3B22500AC9289 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		BEB6B48729C2857D00A95148 /* CupCake Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CupCake Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB6B48A29C2857D00A95148 /* CupCake_CornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCake_CornerApp.swift; sourceTree = "<group>"; };
-		BEB6B48C29C2857D00A95148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BEB6B48E29C2857F00A95148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB6B49129C2857F00A95148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				BEB6B48A29C2857D00A95148 /* CupCake_CornerApp.swift */,
-				BEB6B48C29C2857D00A95148 /* ContentView.swift */,
+				BEA56BD229C3B22500AC9289 /* AddressView.swift */,
+				BEA56BD129C3B22500AC9289 /* CheckoutView.swift */,
+				BEA56BD029C3B22500AC9289 /* ContentView.swift */,
+				BEA56BD329C3B22500AC9289 /* Order.swift */,
 				BEB6B48E29C2857F00A95148 /* Assets.xcassets */,
 				BEB6B49029C2857F00A95148 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB6B48D29C2857D00A95148 /* ContentView.swift in Sources */,
+				BEA56BD729C3B22500AC9289 /* Order.swift in Sources */,
 				BEB6B48B29C2857D00A95148 /* CupCake_CornerApp.swift in Sources */,
+				BEA56BD529C3B22500AC9289 /* CheckoutView.swift in Sources */,
+				BEA56BD429C3B22500AC9289 /* ContentView.swift in Sources */,
+				BEA56BD629C3B22500AC9289 /* AddressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
